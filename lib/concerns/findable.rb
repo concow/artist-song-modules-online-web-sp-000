@@ -5,3 +5,4 @@ module Findable                     #should define method find_by_name. will be 
     end
   end
 end
+#detect returns the first item in block that returns true#being our (self) instances
