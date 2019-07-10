@@ -21,8 +21,4 @@ class Song
   def artist=(artist)
     @artist = artist
   end
-
-  def to_param              #converts :name to a url friendly parameter
-    name.downcase.gsub(' ', '-')
-  end
 end
