@@ -1,5 +1,5 @@
 module Memorable
-  #module ClassMethods
+  module ClassMethods
     def reset_all               #remember to remove .self from method declaration in here
       self.all.clear
     end
