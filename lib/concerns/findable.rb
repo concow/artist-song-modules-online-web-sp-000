@@ -3,5 +3,5 @@ module Findable                     #should define method find_by_name. will be 
     def find_by_name(name)      #self.all vesurs @@class_var
       self.all.detect{|object| object.name == name}   #detect returns the first item in block that returns true
     end                                               #being our (self) instances
-  end 
+  end
 end
