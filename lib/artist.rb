@@ -12,7 +12,7 @@ class Artist
   @@artists = []
 
   def initialize
-    super               #inherits and executes super class code prior to child (below)
+    super               #inherits and executes super class (module in this case) code prior to child (below)
     @songs = []
   end
 
