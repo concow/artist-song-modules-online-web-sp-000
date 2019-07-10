@@ -2,6 +2,6 @@ module Findable                     #should define method find_by_name. will be 
   module ClassMethods
     def find_by_name(name)
       self.detect{|object| object.name}       #detect returns the first item in block that returns true
-    end
+    end                                       #being our (self) instances name
   end
 end
