@@ -1,23 +1,3 @@
-Skip to content
-
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
-
-@concow
-0
-0 130 concow/artist-song-modules-online-web-sp-000
-forked from learn-co-students/artist-song-modules-online-web-sp-000
- Code  Pull requests 0  Projects 0  Security  Insights  Settings
-artist-song-modules-online-web-sp-000/lib/artist.rb
-@concow concow Done.
-412776f 1 hour ago
-@concow @aviflombaum @sgharms @SophieDeBenedetto
-37 lines (27 sloc)  497 Bytes
-
 require 'pry'
 
 class Artist
